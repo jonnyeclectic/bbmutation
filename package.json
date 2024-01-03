@@ -52,7 +52,7 @@
     "commands": "./lib/commands",
     "bin": "sfdx",
     "topics": {
-      "bbmutants": {
+      "bbmutant": {
         "description": "Mutation testing commands."
       }
     }
