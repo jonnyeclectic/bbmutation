@@ -49,7 +49,20 @@
   ],
   "license": "MIT",
   "oclif": {
-    "commands": "./lib/commands"
+    "commands": "./lib/commands",
+    "bin": "sfdx",
+    "topics": {
+      "bbmutants": {
+        "external": true,
+        "subtopics": {
+          "mutate": {
+            "description": "Mutation testing commands."
+          }
+        }
+      }
+    },
+    "flexibleTaxonomy": true,
+    "topicSeparator": " "
   },
   "repository": "keirbowden/bbmutation",
   "scripts": {
