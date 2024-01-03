@@ -10,7 +10,7 @@ const colors = require('colors/safe');
 
 const executeMutants = async (ux, runAsUsername, classDir) => {
     const mutantDir=join(process.cwd(), 'mutants');
-    const tmpDir=await mkdtemp(join(tmpdir(), 'bbmutant-'), {}
+    const tmpDir=await mkdtemp(join(tmpdir(), 'bbmutants-'), {}
     );
     let killed=0;
     let suppressed=0;
