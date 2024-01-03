@@ -49,13 +49,7 @@
   ],
   "license": "MIT",
   "oclif": {
-    "commands": "./lib/commands",
-    "bin": "sfdx",
-    "topics": {
-      "bbmutants": {
-        "description": "Mutation testing commands."
-      }
-    }
+    "commands": "./lib/commands"
   },
   "repository": "keirbowden/bbmutation",
   "scripts": {
